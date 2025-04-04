@@ -1,0 +1,11 @@
+<script>
+    let dan, num;
+    for (dan = 2; dan < 10; dan++) {
+        document.write(dan + "단:");
+        for (num = 1; num < 10; num++) {
+            if (num == 5) break; //추가된 코드
+            document.write(dan + "X" + num + "=" + dan * num + "");
+        }
+        document.write("<hr>");
+    }
+</script>
